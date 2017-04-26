@@ -1,5 +1,7 @@
 language: java
 jdk:
 - oraclejdk8
+before_script:
+- ls -l $TRAVIS_BUILD_DIR/lib/drivers/phantomjs
 script:
 - mvn test
