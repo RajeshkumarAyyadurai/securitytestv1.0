@@ -29,7 +29,8 @@ import com.pages.project.security.DDoSConfigurationPage;
 public class DDoS_SecurityTests {
 	private static WebDriver driver = null;
 	//private String URL = "http://ec2-54-254-182-212.ap-southeast-1.compute.amazonaws.com:8080/security";
-	private String URL = "http://ec2-54-254-182-212.ap-southeast-1.compute.amazonaws.com:8080/bamboo";
+	//private String URL = "http://ec2-54-254-182-212.ap-southeast-1.compute.amazonaws.com:8080/bamboo";
+	private String URL = "http://ec2-54-254-182-212.ap-southeast-1.compute.amazonaws.com:8080/travis";
 	private String userName = "admin";
 	private String password = "admin";
 	private String alias = "ad";
