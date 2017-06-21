@@ -32,7 +32,7 @@ public class DDoS_SecurityTests {
 	//private String URL = "http://ec2-54-254-182-212.ap-southeast-1.compute.amazonaws.com:8080/bamboo";
 	private String URL = "http://ec2-13-228-27-227.ap-southeast-1.compute.amazonaws.com:8080/travis";
 	private String userName = "admin";
-	private String password = "admin";
+	private String password = "admin123";
 	private String alias = "ad";
 	public WebDriverWait wait;
 	
